@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
@@ -32,27 +32,504 @@
 	<meta name="author" content="Dmitry Volkov">
 	<title>OnGo – Download Movies, Web Series & Adult Content</title>
 
-
 </head>
 <body class="body">
+	
+	<!-- header -->
+	<header class="header">
+		<div class="header__wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="header__content">
+							<!-- header logo -->
+							<a href="index.html" class="header__logo">
+								<img src="img/logo1.png" alt="">
+							</a>
+							<!-- end header logo -->
 
-	<!-- page 404 -->
-	<div class="page-404 section--bg" data-bg="img/section/section.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="page-404__wrap">
-						<div class="page-404__content">
-							<h1 class="page-404__title">404</h1>
-							<p class="page-404__text">The page you are looking for is not available!</p>
-							<a href="index.html" class="page-404__btn">go back</a>
+							<!-- header nav -->
+							<ul class="header__nav">
+								<!-- dropdown -->
+								<li class="header__nav-item">
+									<a href="webseries.html" class="header__nav-link">WEB SERIES</a>
+								</li>
+								<!-- end dropdown -->
+
+								<!-- dropdown -->
+								<li class="header__nav-item">
+									<a class="dropdown-toggle header__nav-link" href="#" role="button" id="dropdownMenuCatalog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MOVIES</a>
+
+									<ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuCatalog">
+										<li><a href="bollywood.html">Bollywood</a></li>
+										<li><a href="web series.html">Hollywood</a></li>
+									</ul>
+								</li>
+								<!-- end dropdown -->
+
+								<li class="header__nav-item">
+									<a href="30101.html" class="header__nav-link">CARTOONS</a>
+								</li>
+
+								<li class="header__nav-item">
+									<a href="adult.html" class="header__nav-link">Adult 18+</a>
+								</li>
+
+								<li class="header__nav-item">
+									<a href="faq.html" class="header__nav-link">Help</a>
+								</li>
+							</ul>
+							<!-- end header nav -->
+
+							<!-- header auth -->
+							<div class="header__auth">
+								<a href="searchbox.html"><button class="header__search-btn" type="button">
+									<i class="icon ion-ios-search" src="searchbox.html"></i>
+								</button></a>
+
+								<a href="signin.html" class="header__sign-in">
+									<i class="icon ion-ios-log-in"></i>
+									<span>sign in</span>
+								</a>
+							</div>
+							<!-- end header auth -->
+
+							<!-- header menu btn -->
+							<button class="header__btn" type="button">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+							<!-- end header menu btn -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<!-- header search -->
+		<form action="searchbox.html" class="header__search">
+			<div class="container">
+				<div class="row">
+					<div class="col-12" >
+						<div class="header__search-content">
+							<input type="text" placeholder="Search for a movie, TV Series that you are looking for">
+
+							<button type="button" src="searchbox.html">search</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!-- end header search -->
+
+	</header>
+	<!-- end header -->
+
+	<!-- details -->
+	<section class="section details">
+		<!-- details background -->
+		<div class="details__bg" data-bg="img/home/home__bg.jpg"></div>
+		<!-- end details background -->
+
+		<!-- details content -->
+		<div class="container">
+			<div class="row">
+				<!-- title -->
+				<div class="col-12">
+					<h1 class="details__title">LAKHON MEIN EK SEASON 1 (2017)</h1>
+				</div>
+				<!-- end title -->
+
+				<!-- content -->
+				<div class="col-12 col-xl-6">
+					<div class="card card--details">
+						<div class="row">
+							<!-- card cover -->
+							<div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-5">
+								<div class="card__cover">
+									<img src="../web series/50148/POSTER.jpg" alt="">
+								</div>
+							</div>
+							<!-- end card cover -->
+
+							<!-- card content -->
+							<div class="col-12 col-sm-8 col-md-8 col-lg-9 col-xl-7">
+								<div class="card__content">
+									<div class="card__wrap">
+										<span class="card__rate"><i class="icon ion-ios-star"></i>8.3</span>
+
+										<ul class="card__list">
+											<li>HD</li>
+											<li>12+</li>
+										</ul>
+									</div>
+
+									<ul class="card__meta">
+										<li><span>Genre:</span> <a href="#">Drama</a>
+									</ul>
+
+									<div class="card__description card__description--details">
+										Dr. Shreya is posted in Sitlapur village to conduct a cataract camp but challenges begin unfolding one after the other. She keeps fighting the system but the question remains whether she will change the system or the system will change her?
+									</div>
+								</div>
+							</div>
+							<!-- end card content -->
+						</div>
+					</div>
+				</div>
+				<!-- player -->
+				<div class="col-12 col-xl-6" style="padding-left:20px; margin-top:2px;" >
+					<!-- card cover -->
+					<div class="card__cover">
+						<img src="../web series/50148/SCREENSHOT-1.jpg" alt="" height="200px">
+					</div>
+					<div class="card__cover pull-right">
+						<img src="../web series/50148/SCREENSHOT-2.jpg" alt="" class="pull-right" height="200px">
+					</div>
+					</div>
+					<!-- end card cover -->
+				</div>
+				<!-- end player -->
+			</div>
+			<!-- section btn -->
+			<div class="col-12">
+                <h3 class="btn-details">Whole Series Download(480p)</h3>
+                <ul class="btn-details">
+					<li><span>File Size:</span> <a href="#" class="file-size">410Mb</a>
+				</ul>
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01.Complete.480p.zip?alt=media&token=146bdf35-71f1-4fd2-9c32-613f50151f26
+                "class="section__btn">Download 480p</a>
+			</div>
+			<!-- end section btn -->
+			<!-- section btn -->
+			<div class="col-12">
+                <h3 class="btn-details">Whole Series Download(720p)</h3>
+                <ul class="btn-details">
+					<li><span>File Size:</span> <a href="#" class="file-size">1.33gb</a>
+				</ul>
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01.Complete.720p.zip?alt=media&token=1ccabd0d-a103-4157-baec-53e0f3dac6e2
+                "class="section__btn">Download 720p</a>
+			</div>
+			<!-- end section btn -->
+			<!-- section btn -->
+			<div class="col-12">
+                <h3 class="btn-details">All Episodes(480p)</h3>
+                <ul class="btn-details">
+					<li><span>File Size:</span> <a href="#" class="file-size">60mb-100mb</a>
+				</ul>
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E01.480p.mkv?alt=media&token=93dad594-fb6c-4181-809d-1c6e40937523
+                " class="section__btn">EPISODE 1</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E02.480p.mkv?alt=media&token=46289013-b38c-4904-aa48-3917e10995d4
+                " class="section__btn">EPISODE 2</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E03.480p.mkv?alt=media&token=a7cb099a-3db9-4b95-9cef-8894cab0ec71
+                " class="section__btn">EPISODE 3</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E04.480p.mkv?alt=media&token=0ab81638-e64b-422f-91b9-b571183cb140
+                " class="section__btn">EPISODE 4</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E05.480p.mkv?alt=media&token=f1693c31-bc2e-4c20-a37e-2b173af29b53
+                " class="section__btn">EPISODE 5</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E06.480p.mkv?alt=media&token=0d679b72-b285-4f5e-bf64-dd601ece92ad
+                " class="section__btn">EPISODE 6</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+                <h3 class="btn-details">All Episodes(720p)</h3>
+                <ul class="btn-details">
+					<li><span>File Size:</span> <a href="#" class="file-size">200mb-300mb</a>
+				</ul>
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E01.mkv?alt=media&token=f503ac48-885c-4674-a37f-a4a7f7c34448
+                " class="section__btn">EPISODE 1</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E02.mkv?alt=media&token=2605321b-93eb-470b-bee4-cc12b48ee692
+                " class="section__btn">EPISODE 2</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E03.mkv?alt=media&token=340caeef-1894-436b-b91b-b861d785a394
+                " class="section__btn">EPISODE 3</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E04.mkv?alt=media&token=37f27530-0028-4795-ba9b-4e4db034c66a
+                " class="section__btn">EPISODE 4</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E05.mkv?alt=media&token=a4fda8b4-1e47-424b-9b5c-a4f7d93d1048
+                " class="section__btn">EPISODE 5</a>
+			</div>
+			<!-- end section btn -->
+            <!-- section btn -->
+			<div class="col-12">
+				<a href="https://firebasestorage.googleapis.com/v0/b/asskicker786.appspot.com/o/Laakhon.Mein.Ek.S01E06.mkv?alt=media&token=4c20726d-11f4-4c4c-8b3b-07d0e4401a8d
+                " class="section__btn">EPISODE 6</a>
+			</div>
+			<!-- end section btn -->
+		</div>
+		<!-- end details content -->
+	</section>
+	<!-- end details -->
+
+	<!-- content -->
+	<section class="content">
+		<div class="container">
+			<div class="row">
+				<!-- sidebar -->
+				<section class="section section--bg" data-bg="img/section/section.jpg">
+					<div class="container">
+						<div class="row">
+							<!-- section title -->
+							<div class="col-12">
+								<h2 class="section__title">You May Also Like....</h2>
+							</div>
+							<!-- end section title -->
+							<!-- card -->
+							<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+								<div class="card">
+									<div class="card__cover">
+										<img src="../web series/50102/POSTER.jpg" alt="">
+										<a href="50102.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+									<div class="card__content">
+										<h3 class="card__title"><a href="50102.html">BREATHE INTO THE SHADOWS</a></h3>
+										<span class="card__category">
+											<a href="#">Drama</a>
+											<a href="#">Thriller</a>
+										</span>
+										<span class="card__rate"><i class="icon ion-ios-star"></i>8.0</span>
+									</div>
+								</div>
+							</div>
+							<!-- end card -->
+
+							<!-- card -->
+							<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+								<div class="card">
+									<div class="card__cover">
+										<img src="../web series/50103/POSTER.jpg" alt="">
+										<a href="50103.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+									<div class="card__content">
+										<h3 class="card__title"><a href="50103.html">MAFIA</a></h3>
+										<span class="card__category">
+											<a href="#">Action</a>
+											<a href="#">Drama</a>
+										</span>
+										<span class="card__rate"><i class="icon ion-ios-star"></i>8.6</span>
+									</div>
+								</div>
+							</div>
+							<!-- end card -->
+
+							<!-- card -->
+							<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+								<div class="card">
+									<div class="card__cover">
+										<img src="../web series/50101/POSTER.jpg" alt="">
+										<a href="50101.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+									<div class="card__content">
+										<h3 class="card__title"><a href="50101.html">AARYA</a></h3>
+										<span class="card__category">
+											<a href="#">Crime</a>
+											<a href="#">Drama</a>
+										</span>
+										<span class="card__rate"><i class="icon ion-ios-star"></i>8.0</span>
+									</div>
+								</div>
+							</div>
+							<!-- end card -->
+
+							<!-- card -->
+							<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+								<div class="card">
+									<div class="card__cover">
+										<img src="../web series/50108/POSTER.jpg" alt="">
+										<a href="50108.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+									<div class="card__content">
+										<h3 class="card__title"><a href="50108.html">VIKINGS SEASON 6</a></h3>
+										<span class="card__category">
+											<a href="#">Action</a>
+											<a href="#">Adventure</a>
+										</span>
+										<span class="card__rate"><i class="icon ion-ios-star"></i>8.5</span>
+									</div>
+								</div>
+							</div>
+							<!-- end card -->
+
+							<!-- card -->
+							<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+								<div class="card">
+									<div class="card__cover">
+										<img src="../web series/50104/POSTER.jpg" alt="">
+										<a href="50104.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+									<div class="card__content">
+										<h3 class="card__title"><a href="50104.html">DARK SEASON 3</a></h3>
+										<span class="card__category">
+											<a href="#">Sci-Fi</a>
+										</span>
+										<span class="card__rate"><i class="icon ion-ios-star"></i>8.8</span>
+									</div>
+								</div>
+							</div>
+							<!-- end card -->
+
+							<!-- card -->
+							<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+								<div class="card">
+									<div class="card__cover">
+										<img src="../hollywood/20103/POSTER.jpg" alt="">
+										<a href="20103.html" class="card__play">
+											<i class="icon ion-ios-play"></i>
+										</a>
+									</div>
+									<div class="card__content">
+										<h3 class="card__title"><a href="20103.html">THE OLD GUARD</a></h3>
+										<span class="card__category">
+											<a href="#">Action</a>
+											<a href="#">Fantasy</a>
+										</span>
+										<span class="card__rate"><i class="icon ion-ios-star"></i>6.8</span>
+									</div>
+								</div>
+							</div>
+							<!-- end card -->
+						</div>
+					</div>
+					<!-- section btn -->
+					<div class="col-12">
+						<a href="index.html" class="section__btn">Show more</a>
+					</div>
+					<!-- end section btn -->
+				</section>
+			</div>
+		</div>
+	</section>
+	<!-- end content -->
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<!-- footer copyright -->
+				<div class="col-12">
+					<div class="footer__copyright">
+						<a href="index.html" style="padding-left: 120px; ">
+							<img src="img/logo1.png" alt="" style="width: 85px;height: 25px; margin-bottom: 15px;">
+						</a>
+						<!-- hitwebcounter Code START -->
+						<a href="https://www.hitwebcounter.com" target="_blank" style="padding-left:106px;">
+						<img src="https://hitwebcounter.com/counter/counter.php?page=7550328&style=0009&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free"   border="0" >
+						</a>
+						<ul class="footer__social" style="padding-left: 110px;">
+							<li class="facebook"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+							<li class="instagram"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+							<li class="twitter"><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+							<li class="vk"><a href="#"><i class="icon ion-logo-vk"></i></a></li>
+						</ul>
+						<ul style="padding-left: 80px;">
+							<li><a href="#">Terms of Use</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- end footer copyright -->
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- Root element of PhotoSwipe. Must have class pswp. -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+		<!-- Background of PhotoSwipe. 
+		It's a separate element, as animating opacity is faster than rgba(). -->
+		<div class="pswp__bg"></div>
+
+		<!-- Slides wrapper with overflow:hidden. -->
+		<div class="pswp__scroll-wrap">
+
+			<!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+			<!-- don't modify these 3 pswp__item elements, data is added later on. -->
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+
+			<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+			<div class="pswp__ui pswp__ui--hidden">
+
+				<div class="pswp__top-bar">
+
+					<!--  Controls are self-explanatory. Order can be changed. -->
+
+					<div class="pswp__counter"></div>
+
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+					<!-- Preloader -->
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<!-- end page 404 -->
 
 	<!-- JS -->
 	<script src="js/jquery-3.3.1.min.js"></script>
